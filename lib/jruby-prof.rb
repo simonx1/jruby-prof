@@ -4,7 +4,7 @@ require 'erb'
 
 require File.dirname(__FILE__) + "/jruby-prof.jar"
 
-import org.jruby.prof.JRubyProf
+include_class org.jruby.prof.JRubyProf
 
 require 'jruby-prof/abstract_printer'
 require 'jruby-prof/simple_tree_printer'

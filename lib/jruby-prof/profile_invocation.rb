@@ -1,6 +1,6 @@
 
 class JRubyProf
-  import org.jruby.prof.Invocation
+  include_class org.jruby.prof.Invocation
   class Invocation
     alias :method_name  :methodName
     alias :class_name   :className
